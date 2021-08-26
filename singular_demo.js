@@ -1,4 +1,10 @@
 // Alfredo Canziani, 18 Aug 2021
+/// <reference path="./node_modules/ml-matrix/matrix.d.ts" />
+/// <reference path="./node_modules/@types/p5/global.d.ts" />
+
+if (typeof(require) !== "undefined") {
+    const mlMatrix = require("ml-matrix");
+}
 
 /*
  * @mmdts:
