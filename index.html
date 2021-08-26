@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    @mmdts:
+    Use local dependencies when developing.
+    I've went ahead and downloaded:
+    https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js
+    and
+    https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js
+    and
+    https://unpkg.com/ml-matrix@6.8.0/matrix.umd.js
+
+    IT TURNS OUT YOU CANNOT USE THE NORMAL MATRIX.JS BECAUSE IT IS SPLIT ACROSS 4~5 FILES!!
+
+    Only use the CDN ones when serving it in the end.
+
+    You can change the paths just below to the CDN URLs above:
+    -->
+    <script src="p5.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="matrix.umd.js"></script>
+    <script src="singular_demo.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        canvas {
+            display: block;
+            touch-action: none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Alfredo Canziani SVD</title>
+</head>
+<body>
+
+</body>
+</html>
